@@ -168,7 +168,6 @@ body {
   padding-bottom: 120px;
   padding-top: 100px;
   text-align: center;
-
 }
 
 .reservation__title {
@@ -177,7 +176,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 52px;
-  margin-bottom: 80px;
+  margin: 0, auto, 80px;
 }
 
 .reservation__form {
@@ -251,6 +250,7 @@ body {
   height: 20px;
   line-height: 30px;
   margin-right: 12px;
+  text-align: center;
   vertical-align: middle;
   width: 20px;
 }
