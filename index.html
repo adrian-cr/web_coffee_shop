@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,22 +14,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <title>Triple Espresso</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
       <nav class="header__nav nav">
-        <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="">
-        <div class="nav__links">
-          <a class="nav__link" href="#recipes">Recetas</a>
-          <a class="nav__link" href="#reservation">Reservar una mesa</a>
-          <a class="nav__link" href="#contact">Contactos</a>
-        </div>
+        <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Logo">
+        <ul class="nav__links">
+          <li class="nav__link"><a href="#recipes">Recetas</a></li>
+          <li class="nav__link"><a href="#reservation">Reservar una mesa</a></li>
+          <li class="nav__link"><a href="#contact">Contactos</a></li>
+        </ul>
       </nav>
       <h1 class="header__title"><span class="header__span-accent">Café de especialidad</span><br>en Triple Peaks</h1>
       <p class="header__description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y motivar tu creatividad.</p>
-      <img class="header__image" src="./images/inside_coffee_shop.png" alt="">
+      <img class="header__image" src="./images/inside_coffee_shop.png" alt="Imagen de encabezado">
+      <!--La imagen está colocada en el lugar correcto.
+      No he encontrado una causa al problema que mencionas, y tampoco
+      he podido reproducirlo de mi lado, aunque las DevTools de Chrome
+      tienden a romper el código al visualizar la página desde ahí.
+      La GitHub page del proyecto es:
+      https://adrian-cr.github.io/web_project_coffeeshop -->
       <div class="header__footer">
         <div class="header__schedule">
           <p class="header__paragraph">Horario:</p>
@@ -85,22 +91,22 @@
 
       <div class="footer__content">
         <div class="footer__circle"></div>
-        <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="">
+        <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="Logo">
         <div class="footer__social">
           <h4 class="footer__social-heading">Redes sociales</h4>
           <ul class="footer__list">
             <li class="footer__list-item">
-              <img class="footer__social-icon" src="images/facebook_white.svg" alt="">
-              <a class="footer__social-link">Facebook</a>
+              <img class="footer__social-icon" src="images/facebook_white.svg" alt="Ícono de Facebook">
+              <a class="footer__social-link" href="#">Facebook</a>
             </li>
             <li class="footer__list-item">
-              <img class="footer__social-icon" src="images/instagram_white.svg" alt="">
-              <a class="footer__social-link">Instagram</a>
+              <img class="footer__social-icon" src="images/instagram_white.svg" alt="Ícono de Instagram">
+              <a class="footer__social-link" href="#">Instagram</a>
             </li>
           </ul>
         </div>
       </div>
-      <p class="footer__copyright">© 2024 Adrián Camacho</p>
+      <p class="footer__copyright">&copy; 2024 Adrián Camacho</p>
     </footer>
   </div>
 </body>

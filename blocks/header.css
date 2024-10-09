@@ -14,6 +14,12 @@
   right: 5px;
   top: 124px;
   width: 646px;
+  /* Los valores de 'width' y 'height' son los correctos (no se solicitan máximos).
+  No he encontrado una causa al problema que mencionas,
+  y tampoco he podido reproducirlo mi lado, aunque las DevTools de
+  Chrome tienden a romper el código al visualizar la página desde ahí.
+  La GitHub page del proyecto es:
+  https://adrian-cr.github.io/web_project_coffeeshop */
 }
 
 .header__title {
@@ -45,12 +51,12 @@
   max-width: 683px;
 }
 
-.header__footer{
+.header__footer {
   align-items: end;
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 0px;
+  bottom: 40px;
   width: calc(100% - 160px);
 }
 

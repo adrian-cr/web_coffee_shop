@@ -12,9 +12,10 @@
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  list-style: none;
 }
 
-.nav__link {
+.nav__link a {
   color: unset;
   font-family: "Inter";
   font-style: normal;
